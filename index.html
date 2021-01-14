@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clinica Vida e Saude</title>
+        <link rel="icon" href="./img/logo/icon-logo.png">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Oswald&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/baner.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <header>
+            <div class="info-basic">
+                <a href="http://wa.me/message/ATAJKNQCALHRM1">(73)988391433</a>
+                <p>Horario de Funcionamento: 06:00 as 20:00</p>
+            </div>
+            <img class="img-logo-clinica" src="./img/logo/LOGO-VS-NOVO-01.jpg" alt="Logo marca da clinica">
+            <nav class="nav-bar">
+                <ul class="lista-nav">
+                    <li>Home</li>
+                    <li>Especialidades</li>
+                    <li>Sobre Nos</li>
+                    <li>Parcerias</li>
+                    <li>Localizacao</li>
+                </ul>
+            </nav>
+        </header>
+        <section id="background-img">
+           <p class="frase-impact"></p>
+        </section>
+        <main>
+            <section class="atendendo-hoje">
+              <h2 class="titulo-sec">Atendendo Hoje</h2>
+              <ul class="list-atendendo-hj">
+                  <li>
+                      <p class="nome-medico">Angelica Portugal</p>
+                      <img class="doctor-img" src="./img/doctors/angelicaP.jpg" alt="">
+                      <div class="especialidade">
+                        <img class="icon-especi" src="./img/IconEspecialidades/psico.png" alt="">
+                        <p class="nome-especi">Psicologia</p>
+                      </div>
+                      <p class="CXX">CRP: 6496</p>
+                  </li>
+                  <li>
+                    <p class="nome-medico">Fatima Trajano</p>
+                    <img class="doctor-img" src="./img/doctors/fatimaT.jpg" alt="">
+                    <div class="especialidade">
+                        <img class="icon-especi" src="./img/IconEspecialidades/masto.svg" alt="">
+                        <p class="nome-especi">Mastologia</p>
+                    </div>
+                    <p class="CXX">CRM: 5263</p>
+                  </li>
+                  <li>
+                    <p class="nome-medico">Larissa Rangel</p>
+                    <img class="doctor-img" src="./img/doctors/larissa.jpg" alt="">
+                    <div class="especialidade">
+                        <img class="icon-especi" src="./img/IconEspecialidades/fono.png" alt="">
+                        <p class="nome-especi">Fonodiologia</p>
+                    </div>
+                    <p class="CXX">CRFA: 412070</p>
+                  </li>
+              </ul>
+            </section>
+            <section class="nossa-miss">
+                <div class="titulo-bar">
+                    <h2>Nossa Missao</h2>
+                </div>
+                <div class="nossa-miss-box">
+                    <p class="text-us-miss">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum facilis quisquam, a provident sit magni. Illo dolor id, ratione unde cum incidunt tempore consequatur sunt explicabo amet modi iure officiis?</p>
+                    <img src="./img/missao-clinica/pilares.jpg" alt="">
+                </div>
+            </section>
+            <section class="infraestrutura">
+                <div class="titulo-bar">
+                    <h2>Infraestrutura</h2>
+                </div>
+                <div class="infra-box">
+                    <div class="infra-info">
+                        <p class="text-infra">Lorem ipsum dolor sit amet, consectetur 
+                            adipisicing elit. Velit in, labore tenetur impedit voluptatibus sed? Ea
+                             similique delectus praesentium iusto est dolorum laboriosam fuga. Eaque 
+                             perspiciatis optio neque eveniet dolorum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus accusamus voluptatem sapiente, mollitia illo dolorum perspiciatis asperiores assumenda facere ducimus dolore, culpa odio quisquam eligendi debitis libero deleniti cupiditate praesentium.</p>
+                        <div class="infra-icon">
+                            <img class="icon-in" src="./img/infra-icons/coffee-cup.png" alt="">
+                            <img class="icon-in" src="./img/infra-icons/happiness.png" alt="">
+                            <img class="icon-in" src="./img/infra-icons/doctor.png" alt="">
+                            <img class="icon-in" src="./img/infra-icons/air-conditioner.png" alt="">
+                        </div>
+                    </div>
+                    <img class="slide-img" src="./img/SlideClinica/img1.jpg">
+                    <img class="slide-img" src="./img/SlideClinica/img2.jpg">
+                    <img class="slide-img" src="./img/SlideClinica/img3.jpg">
+                    <img class="slide-img" src="./img/SlideClinica/img4.jpg">
+                </div>
+            </section>
+            <section class="localiacao">
+                <div class="titulo-bar">
+                    <h2>Onde voce pode achar a gente ?</h2>
+                </div>
+                <div id="googleMap" style="width:100%;height:400px;"></div>
+            </section>
+        </main>
+        <script src="./scripts/maps.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6pTU15GpgwMgYGxfhUzIbg5UP5TzwKo4&callback=myMap"></script>
+        <script src="./scripts/slide-espaco-clinica.js"></script>
+    </body>
+</html>

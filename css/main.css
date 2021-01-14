@@ -1,0 +1,146 @@
+/*Classes gerais de titulo e bar*/
+.titulo-sec {
+    font-family: 'Oswald', sans-serif;
+    color: #51b8a7;
+    font-size: 3em;
+    margin-top: 35px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.titulo-bar {
+    width: 100%;
+    height: fit-content;
+    background-color: #51b8a7;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 2em;
+    padding: 20px;
+}
+/*===============================*/
+
+/*Medicos que estao atendendo no dia*/
+main .atendendo-hoje .list-atendendo-hj {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main .atendendo-hoje .list-atendendo-hj li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: 35em;
+    padding: 20px 20px 10px 20px;
+    border: 5px  #51b8a7 solid;
+    border-radius: 10px;
+    margin: 10px 10px 50px 10px;
+    box-sizing:content-box;
+}
+
+.nome-medico {
+    color: #51b8a7;
+    font-size: 1.8em;
+    margin: 10px 0 10px 0;
+    font-family: 'Oswald', sans-serif;
+}
+.doctor-img {
+    width: 18em;
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+}
+
+.especialidade {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+    width: auto;
+    height: auto;
+    background-color: rgba(224, 207, 183, 1);
+    border-radius: 5px;
+    margin: 0.1em;
+}
+.icon-especi{
+    width: 2em;
+    margin: 0 4% 0 0;
+}
+
+.nome-especi {
+    font-size: 1.3em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.CXX {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    margin: 20px 0 0 0;
+}
+/*============================================================*/
+.nossa-miss-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-us-miss {
+    width:500px;
+    height: fit-content;
+    text-align: justify;
+    margin-top: 60px;
+    font-family: 'Oswald', sans-sarif;
+    font-size: 1.8em;
+    word-wrap: break-word;
+}
+/*=======================================================*/
+.infra-box {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-infra {
+    width: auto;
+    height: fit-content;
+    text-align: justify;
+    font-family: 'Oswald', sans-sarif;
+    word-wrap: break-word;
+    font-size: 2em;
+    margin: 30px 100px 0px 80px;
+  }
+
+  .infra-icon {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 80px 0px 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-in {
+    width: 110px;
+}
+
+
+.slide-img {
+    border-radius: 10px;
+    margin: 40px;
+    animation:fading 7s infinite;
+    width: 20em;
+}
+
+@keyframes fading {
+    0%{opacity:0}
+    50%{opacity:1}
+    100%{opacity:0} 
+}
