@@ -1,0 +1,1 @@
+const diasDaSemana = ["Segunda", "Terca", "Quarta", "Quinta", "Sexta"]
